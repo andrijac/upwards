@@ -13,7 +13,7 @@ function testUrl(input, expected) {
 }
 
 function eq(title, input, expected) {	
-	wl("Test " + input + " === " + expected);
+	wl(title);
 	wl(input === expected ? success("SUCCESS") : fail("FAIL"));
 }
 
@@ -22,13 +22,14 @@ function eq(title, input, expected) {
 		
 	testUrl("https://localhost/", "https://localhost/");
 	
-	//testUrl("http://subdomain.example.com/", "http://www.example.com/");
+	testUrl("http://subdomain.example.com/"
+			, "http://example.com/");
 	
 	testUrl("http://www.example.com/"
-	, "http://example.com/");
+			, "http://example.com/");
 	
 	testUrl("http://www.example.com:81/"
-	, "http://example.com:81/");
+			, "http://example.com:81/");
 	
 	testUrl("http://www.example.com:81/"
 			, "http://example.com:81/");
