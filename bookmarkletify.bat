@@ -1,0 +1,1 @@
+bookmarklet upwards-min.js > upwards-browser.js
