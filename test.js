@@ -31,9 +31,6 @@ function eq(title, input, expected) {
 	testUrl("http://www.example.com:81/"
 			, "http://example.com:81/");
 	
-	testUrl("http://www.example.com:81/"
-			, "http://example.com:81/");
-	
 	testUrl("http://subdomain.example.com/ranks.aspx"
 			, "http://subdomain.example.com/");
 	

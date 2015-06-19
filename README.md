@@ -17,9 +17,6 @@ Tests:
 	testUrl("http://www.example.com:81/"
 			, "http://example.com:81/");
 	
-	testUrl("http://www.example.com:81/"
-			, "http://example.com:81/");
-	
 	testUrl("http://subdomain.example.com/ranks.aspx"
 			, "http://subdomain.example.com/");
 	
@@ -43,4 +40,5 @@ Tests:
 	
 	testUrl("http://example.com/path/path/"
 			, "http://example.com/path/");
+
 ```

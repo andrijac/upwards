@@ -2,6 +2,7 @@
 if(this["document"] === undefined) {
 	module.exports = upwards;
 } else {
+	// yeah, global var... page will be redirected anyway
 	var upwardsUrl = upwards(document.location.href);
 	window.location.replace(upwardsUrl);
 }
