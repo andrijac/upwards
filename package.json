@@ -1,0 +1,25 @@
+{
+  "name": "upwards",
+  "version": "0.0.0",
+  "description": "Move upwards in URL",
+  "main": "test.js",
+  "dependencies": {
+    "cli-color": "~1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrijac/upwards.git"
+  },
+  "keywords": [
+    "url"
+  ],
+  "author": "Andrija Cacanovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrijac/upwards/issues"
+  }
+}
